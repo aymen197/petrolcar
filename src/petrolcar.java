@@ -14,7 +14,7 @@ class EVCar extends Vehicle {
         System.out.println("This " + brand + " has a " + batteryCapacity + "kWh battery.");
     }
 }
-class Petrolcar {
+class Main {
     public static void main(String[] args) {
         EVCar myEv = new EVCar();
         myEv.displaySpecs();
